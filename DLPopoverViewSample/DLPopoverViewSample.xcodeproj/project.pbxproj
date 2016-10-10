@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		637182841DAC103D00CC9C11 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637182831DAC103D00CC9C11 /* PopoverView.swift */; };
+		637182921DAC144300CC9C11 /* PopoverHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637182911DAC144300CC9C11 /* PopoverHandler.swift */; };
+		6371829E1DAC239200CC9C11 /* AnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637182961DAC239200CC9C11 /* AnimationController.swift */; };
+		6371829F1DAC239200CC9C11 /* AnimationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637182971DAC239200CC9C11 /* AnimationDataSource.swift */; };
+		637182A01DAC239200CC9C11 /* DefaultAnimationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637182981DAC239200CC9C11 /* DefaultAnimationDataSource.swift */; };
+		637182A11DAC239200CC9C11 /* ArrowDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6371829A1DAC239200CC9C11 /* ArrowDirection.swift */; };
+		637182A21DAC239200CC9C11 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6371829B1DAC239200CC9C11 /* Geometry.swift */; };
+		637182A31DAC239200CC9C11 /* LayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6371829C1DAC239200CC9C11 /* LayoutController.swift */; };
+		637182A41DAC239200CC9C11 /* PathBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6371829D1DAC239200CC9C11 /* PathBuilder.swift */; };
 		6387F6F31DAC0EFA0078EAD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6387F6F21DAC0EFA0078EAD2 /* AppDelegate.swift */; };
 		6387F6F51DAC0EFA0078EAD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6387F6F41DAC0EFA0078EAD2 /* ViewController.swift */; };
 		6387F6F81DAC0EFA0078EAD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6387F6F61DAC0EFA0078EAD2 /* Main.storyboard */; };
@@ -15,6 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		637182831DAC103D00CC9C11 /* PopoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		637182911DAC144300CC9C11 /* PopoverHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverHandler.swift; sourceTree = "<group>"; };
+		637182961DAC239200CC9C11 /* AnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationController.swift; sourceTree = "<group>"; };
+		637182971DAC239200CC9C11 /* AnimationDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationDataSource.swift; sourceTree = "<group>"; };
+		637182981DAC239200CC9C11 /* DefaultAnimationDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultAnimationDataSource.swift; sourceTree = "<group>"; };
+		6371829A1DAC239200CC9C11 /* ArrowDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowDirection.swift; sourceTree = "<group>"; };
+		6371829B1DAC239200CC9C11 /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		6371829C1DAC239200CC9C11 /* LayoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutController.swift; sourceTree = "<group>"; };
+		6371829D1DAC239200CC9C11 /* PathBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathBuilder.swift; sourceTree = "<group>"; };
 		6387F6EF1DAC0EFA0078EAD2 /* DLPopoverViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLPopoverViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6387F6F21DAC0EFA0078EAD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6387F6F41DAC0EFA0078EAD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +53,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		637182821DAC102000CC9C11 /* DLPopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				637182831DAC103D00CC9C11 /* PopoverView.swift */,
+				637182911DAC144300CC9C11 /* PopoverHandler.swift */,
+				637182951DAC239200CC9C11 /* Animation */,
+				637182991DAC239200CC9C11 /* Geometry */,
+			);
+			path = DLPopoverView;
+			sourceTree = "<group>";
+		};
+		637182951DAC239200CC9C11 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				637182961DAC239200CC9C11 /* AnimationController.swift */,
+				637182971DAC239200CC9C11 /* AnimationDataSource.swift */,
+				637182981DAC239200CC9C11 /* DefaultAnimationDataSource.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		637182991DAC239200CC9C11 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				6371829A1DAC239200CC9C11 /* ArrowDirection.swift */,
+				6371829B1DAC239200CC9C11 /* Geometry.swift */,
+				6371829C1DAC239200CC9C11 /* LayoutController.swift */,
+				6371829D1DAC239200CC9C11 /* PathBuilder.swift */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
 		6387F6E61DAC0EFA0078EAD2 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				6387F6F21DAC0EFA0078EAD2 /* AppDelegate.swift */,
+				637182821DAC102000CC9C11 /* DLPopoverView */,
 				6387F6F41DAC0EFA0078EAD2 /* ViewController.swift */,
 				6387F6F61DAC0EFA0078EAD2 /* Main.storyboard */,
 				6387F6F91DAC0EFA0078EAD2 /* Assets.xcassets */,
@@ -135,7 +186,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				637182A41DAC239200CC9C11 /* PathBuilder.swift in Sources */,
+				6371829E1DAC239200CC9C11 /* AnimationController.swift in Sources */,
+				637182841DAC103D00CC9C11 /* PopoverView.swift in Sources */,
+				637182921DAC144300CC9C11 /* PopoverHandler.swift in Sources */,
+				637182A21DAC239200CC9C11 /* Geometry.swift in Sources */,
 				6387F6F51DAC0EFA0078EAD2 /* ViewController.swift in Sources */,
+				637182A01DAC239200CC9C11 /* DefaultAnimationDataSource.swift in Sources */,
+				6371829F1DAC239200CC9C11 /* AnimationDataSource.swift in Sources */,
+				637182A31DAC239200CC9C11 /* LayoutController.swift in Sources */,
+				637182A11DAC239200CC9C11 /* ArrowDirection.swift in Sources */,
 				6387F6F31DAC0EFA0078EAD2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
